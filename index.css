@@ -1,0 +1,380 @@
+body{
+	margin: 0;
+}
+.main{
+	height: 600px;
+	width: 100%;
+	background-image: url(./img/bg1.jpeg);
+	background-size: cover;
+	position: relative;
+}
+.box{
+	    right: 10%;
+	    text-align: right;
+    top: 23%;
+    position: absolute;
+}.text{
+	height: 200px;
+	width: 400px;
+}
+.ImgStyle{
+	width: 200px;
+}
+			.main2
+			{
+			
+			/*height: 450px;*/
+			display: flex;
+			margin: 4%;
+			position: relative;
+			
+		}
+		.bg2{
+			width: 40%;
+		}
+		.meeting{
+			max-width: 100%;
+		}
+		.text2{
+			width: 350px;
+			width: 50%;
+			color: #2E86C1;
+			font-size: 19px;
+		}
+		.Box_Style_Img{
+			top: 23%;
+			position: absolute;
+			background-color: black;
+		}
+		.main3{
+			
+			width: 80%;
+			/*border: 1 px solid blue;*/
+			margin: 5px;
+			margin-left: 10%;
+			
+			text-align: center;
+			font-size:20px ;
+			
+		}
+
+.main4{
+	
+	width: 100%;
+	margin-top: 3%;
+	background-image: url(img/bg3.jpeg);
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+.subbox{
+	
+	margin-top: 6%;
+	margin-bottom: 7%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 70%;
+	/*height: 60%;*/
+	position: absolute;
+}
+.mysql{
+	margin-left: 21%;
+
+	margin-top: 4%;
+	display: flex;
+
+}
+.styl{
+	/*border: 1px solid rebeccapurple;*/
+	color: white;
+	width: 25%;
+	height: 35px;
+	padding-top: 15px;
+	border-radius: 5px;
+	text-align: center;
+	background: rgba(0, 0, 0, .3);
+	margin: 10px;
+}
+
+			.main5{
+				
+				height: 400px;
+				width: 100%;
+				position: relative;
+				display: flex;
+			}
+			.main51{
+				
+				height: 300px;
+				width: 50%;
+				margin-top: 5%;
+				background-image: url(./img/bg4.jpeg);
+				
+				
+			}
+			.main52{
+				
+				height: 260px;
+				width: 47%;
+				margin-left: 1%;
+				margin-top: 1.5%;
+				text-align: center;
+				background: rgba(0, 0, 0, .3);
+				font-size: 22px;
+				position: absolute;
+			
+			}
+			.main53{
+					
+				height: 300px;
+				width: 50%;
+				margin-top: 5%;
+				background-image: url(./img/bg5.jpeg);
+				background-size: 100% 100%;
+
+			}
+			.main54{
+				
+				height: 260px;
+				width: 47%;
+				margin-left: 1%;
+				margin-top: 1.5%;
+				text-align: center;
+				/*position: relative;*/
+				font-size: 22px;
+				background: rgba(0, 0, 0, .3);
+				position: absolute;
+			
+			}
+			.parabox{
+				margin-top: 13%;
+			}
+.main6{
+	
+	
+	width: 70%;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	
+	text-align: center;
+	/*display: flex;*/
+}
+.btn{
+	height: 45px;
+	width: 100px;
+	font-size: 17px;
+	color: red;
+	border-color: red;
+}
+.smlbox{
+	height: 300px;
+	width: 60%;
+	
+	margin-top: 4%;
+	margin-left:15 %;
+	margin-right:%;
+	font-size: 20px;
+}
+.mainsmlbox{
+	
+	display: flex;
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	margin-right: 20%;
+}
+
+
+
+@media screen and (max-width: 600px){
+	.main{
+	height: 250px;
+	width: 100%;
+	/*background-image: none;
+	background-color: #D5DBDB;*/
+	background-size: 100% 100%;
+	
+	}
+	.text{
+		/*height: 100px;
+		width: 200px;*/
+		font-size: 4px;
+	}
+	.ImgStyle{
+	width: 100px;
+	}
+
+		.main2
+			{
+			
+			/*height: 450px;*/
+			display: flex;
+			margin: 4%;
+			position: relative;
+			
+		}
+		.bg2{
+			width: 50%;
+
+		}
+		.meeting{
+			max-width: 100%;
+			height: 180px;
+		}
+		.text2{
+			
+			width: 5%;
+			color: #2E86C1;
+			font-size: 10px;
+		}
+		.Box_Style_Img{
+			top: 17%;
+
+			
+		}
+
+				.main3{
+			
+			width: 90%;
+			
+			margin: 5%;
+			
+			
+			text-align: center;
+			font-size:14px ;
+		}
+
+.main5{
+				
+				
+				width: 100%;
+				height: 235px;
+				
+			}
+			.main51{
+				
+				height: 170px;
+				width: 50%;
+				margin-top: 5%;
+				background-size: 100% 100%;
+				
+				
+			}
+			.main52{
+				
+				height: 130px;
+				width: 47%;
+				margin-left: 1%;
+				margin-top: 4%;
+				text-align: center;
+				font-size: 10px;
+				
+			
+			}
+			.main53{
+					
+				height: 170px;
+				width: 50%;
+				margin-top: 5%;
+				
+			}
+			.main54{
+				
+				height: 130px;
+				width: 47%;
+				margin-left: 1%;
+				margin-top: 4%;
+				text-align: center;
+				background-size: 100% 100%;
+				font-size: 10px;
+				
+			}
+			.parabox{
+				margin-top: 13%;
+			}
+
+	.main6{
+	
+	
+	width: 90%;
+	
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	
+	text-align: center;
+	
+}
+.btn{
+	height: 25px;
+	width: 50px;
+	font-size: 8px;
+	color: red;
+	border-color: red;
+}.head
+{
+	font-size: 10px;
+}
+.smlbox{
+	height: 163px;
+	width: 35%;
+	
+	margin-top: 1%;
+	/*margin-left:10%;
+	margin-right:%;*/
+	font-size: 10px;
+}
+.mainsmlbox{
+	
+	
+	width: 100%;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	margin-right: 10%;
+}
+		.main4{
+	
+	width: 100%;
+	margin-top: 3%;
+	
+	background-size: cover;
+	height: 250px;
+	
+
+}
+.subbox{
+	
+	margin-top: 6%;
+	margin-bottom: 7%;
+	margin-left: 5%;
+	margin-right: 10%;
+	width: 70%;
+	
+	
+}
+.mysql{
+	margin-left: 5%;
+
+	margin-top: 4%;
+	font-size: 10px;
+	
+
+}
+.styl{
+	
+	width: 30%;
+	height: 25px;
+	padding-top: 15px;
+	border-radius: 5px;
+	text-align: center;
+	
+	margin: 10px;
+}
+
+
+
+
+}
